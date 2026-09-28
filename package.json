@@ -1,0 +1,23 @@
+{
+  "name": "imgready",
+  "version": "0.1.2",
+  "description": "Security-first remote image localization for Obsidian.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "check": "tsc --noEmit --skipLibCheck",
+    "build": "npm run check && node esbuild.config.mjs production",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": ["obsidian", "images", "attachments", "security", "privacy"],
+  "author": "Hadeer",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "24.5.2",
+    "esbuild": "0.25.10",
+    "obsidian": "1.13.1",
+    "typescript": "5.9.2",
+    "vitest": "3.2.4"
+  }
+}

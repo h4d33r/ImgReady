@@ -1,0 +1,15 @@
+.imgready-security-status {
+  margin-top: 1.25rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  background: var(--background-secondary);
+}
+
+.imgready-security-status h3 {
+  margin-top: 0;
+}
+
+.imgready-security-status ul {
+  margin-bottom: 0;
+}

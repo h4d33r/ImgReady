@@ -1,0 +1,9 @@
+{
+  "id": "imgready",
+  "name": "ImgReady",
+  "version": "0.1.2",
+  "minAppVersion": "1.7.2",
+  "description": "Safely localize remote images into your vault with explicit trust controls.",
+  "author": "Hadeer",
+  "isDesktopOnly": true
+}
